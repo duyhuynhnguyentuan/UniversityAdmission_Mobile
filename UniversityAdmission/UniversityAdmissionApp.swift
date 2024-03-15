@@ -12,6 +12,8 @@ struct UniversityAdmissionApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(AuthViewModel.shared)
+//            WelcomeView()
         }
     }
 }

@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		665773F62B9EC1ED00DA50F9 /* AdmissionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665773F52B9EC1ED00DA50F9 /* AdmissionMethod.swift */; };
+		665B28032B958421007EE6B2 /* UniSearchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B28022B958421007EE6B2 /* UniSearchDetailView.swift */; };
+		666200782BA1329900ABDACA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666200772BA1329900ABDACA /* User.swift */; };
+		6662007B2BA1465800ABDACA /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6662007A2BA1465800ABDACA /* AuthViewModel.swift */; };
+		6662007D2BA1467200ABDACA /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6662007C2BA1467200ABDACA /* WelcomeView.swift */; };
+		666200812BA1493000ABDACA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666200802BA1493000ABDACA /* Extensions.swift */; };
+		666200832BA1497100ABDACA /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666200822BA1497100ABDACA /* RegisterView.swift */; };
+		666200852BA1497A00ABDACA /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666200842BA1497A00ABDACA /* LogInView.swift */; };
+		666200882BA14DF100ABDACA /* CustomAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666200872BA14DF100ABDACA /* CustomAuthTextField.swift */; };
+		6662008A2BA14E2300ABDACA /* SecureAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666200892BA14E2300ABDACA /* SecureAuthTextField.swift */; };
+		667802322B8DDFD90026CEFE /* UniversityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667802312B8DDFD90026CEFE /* UniversityService.swift */; };
+		667C65872B98185900767698 /* Major.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C65862B98185800767698 /* Major.swift */; };
+		667C65892B981FA900767698 /* MajorSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C65882B981FA900767698 /* MajorSearchViewModel.swift */; };
+		667C658B2B9824C900767698 /* MajorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C658A2B9824C900767698 /* MajorService.swift */; };
+		668A02092B90651F00BC0B32 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668A02082B90651F00BC0B32 /* University.swift */; };
+		668A020B2B9069B100BC0B32 /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668A020A2B9069B100BC0B32 /* Province.swift */; };
+		668A020D2B906D5D00BC0B32 /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668A020C2B906D5D00BC0B32 /* AuthServices.swift */; };
+		668A02112B90758200BC0B32 /* UniversitySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668A02102B90758200BC0B32 /* UniversitySearchViewModel.swift */; };
 		668B69912B897B9C0059C5E9 /* UniversityAdmissionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69902B897B9C0059C5E9 /* UniversityAdmissionApp.swift */; };
 		668B69932B897B9C0059C5E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69922B897B9C0059C5E9 /* ContentView.swift */; };
 		668B69952B897B9D0059C5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668B69942B897B9D0059C5E9 /* Assets.xcassets */; };
@@ -14,6 +32,17 @@
 		668B69A22B897B9D0059C5E9 /* UniversityAdmissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69A12B897B9D0059C5E9 /* UniversityAdmissionTests.swift */; };
 		668B69AC2B897B9D0059C5E9 /* UniversityAdmissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69AB2B897B9D0059C5E9 /* UniversityAdmissionUITests.swift */; };
 		668B69AE2B897B9D0059C5E9 /* UniversityAdmissionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69AD2B897B9D0059C5E9 /* UniversityAdmissionUITestsLaunchTests.swift */; };
+		668B69BE2B897F970059C5E9 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69BD2B897F970059C5E9 /* TopBar.swift */; };
+		668B69C02B8982E90059C5E9 /* UniversitySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69BF2B8982E90059C5E9 /* UniversitySearchView.swift */; };
+		668B69C22B8986580059C5E9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69C12B8986580059C5E9 /* HomeView.swift */; };
+		668E49812B94433200EA9C5F /* UniversitySearchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E49802B94433200EA9C5F /* UniversitySearchCardView.swift */; };
+		668E49842B94E41800EA9C5F /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 668E49832B94E41800EA9C5F /* SplineRuntime */; };
+		668E49882B94EB6300EA9C5F /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 668E49872B94EB6300EA9C5F /* SplineRuntime */; };
+		6694C7C82BA3260300784FD7 /* CustomNumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6694C7C72BA3260300784FD7 /* CustomNumberField.swift */; };
+		6694C7CA2BA326CB00784FD7 /* CustomEmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6694C7C92BA326CB00784FD7 /* CustomEmailTextField.swift */; };
+		6694C7CC2BA35DBA00784FD7 /* AlreadyLoggedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6694C7CB2BA35DBA00784FD7 /* AlreadyLoggedInView.swift */; };
+		66C54B9C2B97189D006AD667 /* CaculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C54B9B2B97189D006AD667 /* CaculatorView.swift */; };
+		66C54B9E2B975DF5006AD667 /* AllSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C54B9D2B975DF5006AD667 /* AllSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +63,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		665773F52B9EC1ED00DA50F9 /* AdmissionMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmissionMethod.swift; sourceTree = "<group>"; };
+		665B28022B958421007EE6B2 /* UniSearchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniSearchDetailView.swift; sourceTree = "<group>"; };
+		666200772BA1329900ABDACA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6662007A2BA1465800ABDACA /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		6662007C2BA1467200ABDACA /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		666200802BA1493000ABDACA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		666200822BA1497100ABDACA /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		666200842BA1497A00ABDACA /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		666200872BA14DF100ABDACA /* CustomAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTextField.swift; sourceTree = "<group>"; };
+		666200892BA14E2300ABDACA /* SecureAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureAuthTextField.swift; sourceTree = "<group>"; };
+		667802312B8DDFD90026CEFE /* UniversityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityService.swift; sourceTree = "<group>"; };
+		667C65862B98185800767698 /* Major.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Major.swift; sourceTree = "<group>"; };
+		667C65882B981FA900767698 /* MajorSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorSearchViewModel.swift; sourceTree = "<group>"; };
+		667C658A2B9824C900767698 /* MajorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorService.swift; sourceTree = "<group>"; };
+		668A02062B9055FD00BC0B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		668A02082B90651F00BC0B32 /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		668A020A2B9069B100BC0B32 /* Province.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
+		668A020C2B906D5D00BC0B32 /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
+		668A02102B90758200BC0B32 /* UniversitySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitySearchViewModel.swift; sourceTree = "<group>"; };
 		668B698D2B897B9C0059C5E9 /* UniversityAdmission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversityAdmission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		668B69902B897B9C0059C5E9 /* UniversityAdmissionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityAdmissionApp.swift; sourceTree = "<group>"; };
 		668B69922B897B9C0059C5E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +92,15 @@
 		668B69A72B897B9D0059C5E9 /* UniversityAdmissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversityAdmissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		668B69AB2B897B9D0059C5E9 /* UniversityAdmissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityAdmissionUITests.swift; sourceTree = "<group>"; };
 		668B69AD2B897B9D0059C5E9 /* UniversityAdmissionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityAdmissionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		668B69BD2B897F970059C5E9 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		668B69BF2B8982E90059C5E9 /* UniversitySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitySearchView.swift; sourceTree = "<group>"; };
+		668B69C12B8986580059C5E9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		668E49802B94433200EA9C5F /* UniversitySearchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitySearchCardView.swift; sourceTree = "<group>"; };
+		6694C7C72BA3260300784FD7 /* CustomNumberField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNumberField.swift; sourceTree = "<group>"; };
+		6694C7C92BA326CB00784FD7 /* CustomEmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmailTextField.swift; sourceTree = "<group>"; };
+		6694C7CB2BA35DBA00784FD7 /* AlreadyLoggedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlreadyLoggedInView.swift; sourceTree = "<group>"; };
+		66C54B9B2B97189D006AD667 /* CaculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatorView.swift; sourceTree = "<group>"; };
+		66C54B9D2B975DF5006AD667 /* AllSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668E49842B94E41800EA9C5F /* SplineRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668E49882B94EB6300EA9C5F /* SplineRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +130,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		666200792BA1464700ABDACA /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				6662007A2BA1465800ABDACA /* AuthViewModel.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		6662007F2BA1491200ABDACA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				666200802BA1493000ABDACA /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		666200862BA14DD700ABDACA /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				666200872BA14DF100ABDACA /* CustomAuthTextField.swift */,
+				666200892BA14E2300ABDACA /* SecureAuthTextField.swift */,
+				6694C7C72BA3260300784FD7 /* CustomNumberField.swift */,
+				6694C7C92BA326CB00784FD7 /* CustomEmailTextField.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		6678022F2B8DDF850026CEFE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				667802302B8DDFC40026CEFE /* RequestServices */,
+				668A020C2B906D5D00BC0B32 /* AuthServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		667802302B8DDFC40026CEFE /* RequestServices */ = {
+			isa = PBXGroup;
+			children = (
+				667C658A2B9824C900767698 /* MajorService.swift */,
+				667802312B8DDFD90026CEFE /* UniversityService.swift */,
+			);
+			path = RequestServices;
+			sourceTree = "<group>";
+		};
+		668A02072B90648400BC0B32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				668A02082B90651F00BC0B32 /* University.swift */,
+				668A020A2B9069B100BC0B32 /* Province.swift */,
+				667C65862B98185800767698 /* Major.swift */,
+				665773F52B9EC1ED00DA50F9 /* AdmissionMethod.swift */,
+				666200772BA1329900ABDACA /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		668A020E2B9072AA00BC0B32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				666200862BA14DD700ABDACA /* Items */,
+				668B69BF2B8982E90059C5E9 /* UniversitySearchView.swift */,
+				668B69922B897B9C0059C5E9 /* ContentView.swift */,
+				668B69BA2B897F2D0059C5E9 /* MainView */,
+				668E49802B94433200EA9C5F /* UniversitySearchCardView.swift */,
+				665B28022B958421007EE6B2 /* UniSearchDetailView.swift */,
+				66C54B9B2B97189D006AD667 /* CaculatorView.swift */,
+				66C54B9D2B975DF5006AD667 /* AllSearchView.swift */,
+				6662007C2BA1467200ABDACA /* WelcomeView.swift */,
+				666200822BA1497100ABDACA /* RegisterView.swift */,
+				666200842BA1497A00ABDACA /* LogInView.swift */,
+				6694C7CB2BA35DBA00784FD7 /* AlreadyLoggedInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		668A020F2B9072D900BC0B32 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				666200792BA1464700ABDACA /* Authentication */,
+				668A02102B90758200BC0B32 /* UniversitySearchViewModel.swift */,
+				667C65882B981FA900767698 /* MajorSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		668B69842B897B9C0059C5E9 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +239,15 @@
 		668B698F2B897B9C0059C5E9 /* UniversityAdmission */ = {
 			isa = PBXGroup;
 			children = (
-				668B69902B897B9C0059C5E9 /* UniversityAdmissionApp.swift */,
-				668B69922B897B9C0059C5E9 /* ContentView.swift */,
+				6662007F2BA1491200ABDACA /* Extensions */,
+				668A020F2B9072D900BC0B32 /* ViewModel */,
+				6678022F2B8DDF850026CEFE /* Services */,
+				668A020E2B9072AA00BC0B32 /* View */,
+				668A02072B90648400BC0B32 /* Model */,
+				668A02062B9055FD00BC0B32 /* Info.plist */,
 				668B69942B897B9D0059C5E9 /* Assets.xcassets */,
 				668B69962B897B9D0059C5E9 /* Preview Content */,
+				668B69902B897B9C0059C5E9 /* UniversityAdmissionApp.swift */,
 			);
 			path = UniversityAdmission;
 			sourceTree = "<group>";
@@ -127,6 +277,15 @@
 			path = UniversityAdmissionUITests;
 			sourceTree = "<group>";
 		};
+		668B69BA2B897F2D0059C5E9 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				668B69BD2B897F970059C5E9 /* TopBar.swift */,
+				668B69C12B8986580059C5E9 /* HomeView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +302,9 @@
 			dependencies = (
 			);
 			name = UniversityAdmission;
+			packageProductDependencies = (
+				668E49832B94E41800EA9C5F /* SplineRuntime */,
+			);
 			productName = UniversityAdmission;
 			productReference = 668B698D2B897B9C0059C5E9 /* UniversityAdmission.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +323,9 @@
 				668B699F2B897B9D0059C5E9 /* PBXTargetDependency */,
 			);
 			name = UniversityAdmissionTests;
+			packageProductDependencies = (
+				668E49872B94EB6300EA9C5F /* SplineRuntime */,
+			);
 			productName = UniversityAdmissionTests;
 			productReference = 668B699D2B897B9D0059C5E9 /* UniversityAdmissionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -215,6 +380,9 @@
 				Base,
 			);
 			mainGroup = 668B69842B897B9C0059C5E9;
+			packageReferences = (
+				668E49822B94E41800EA9C5F /* XCRemoteSwiftPackageReference "spline-ios" */,
+			);
 			productRefGroup = 668B698E2B897B9C0059C5E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +425,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6662007B2BA1465800ABDACA /* AuthViewModel.swift in Sources */,
+				665773F62B9EC1ED00DA50F9 /* AdmissionMethod.swift in Sources */,
+				6662008A2BA14E2300ABDACA /* SecureAuthTextField.swift in Sources */,
+				666200882BA14DF100ABDACA /* CustomAuthTextField.swift in Sources */,
+				667C65892B981FA900767698 /* MajorSearchViewModel.swift in Sources */,
+				66C54B9C2B97189D006AD667 /* CaculatorView.swift in Sources */,
+				665B28032B958421007EE6B2 /* UniSearchDetailView.swift in Sources */,
+				668B69C02B8982E90059C5E9 /* UniversitySearchView.swift in Sources */,
+				666200852BA1497A00ABDACA /* LogInView.swift in Sources */,
+				668E49812B94433200EA9C5F /* UniversitySearchCardView.swift in Sources */,
+				6694C7CC2BA35DBA00784FD7 /* AlreadyLoggedInView.swift in Sources */,
+				667C65872B98185900767698 /* Major.swift in Sources */,
 				668B69932B897B9C0059C5E9 /* ContentView.swift in Sources */,
+				666200832BA1497100ABDACA /* RegisterView.swift in Sources */,
+				666200812BA1493000ABDACA /* Extensions.swift in Sources */,
+				668B69BE2B897F970059C5E9 /* TopBar.swift in Sources */,
+				668B69C22B8986580059C5E9 /* HomeView.swift in Sources */,
+				6694C7C82BA3260300784FD7 /* CustomNumberField.swift in Sources */,
+				6694C7CA2BA326CB00784FD7 /* CustomEmailTextField.swift in Sources */,
+				667C658B2B9824C900767698 /* MajorService.swift in Sources */,
+				668A02112B90758200BC0B32 /* UniversitySearchViewModel.swift in Sources */,
+				6662007D2BA1467200ABDACA /* WelcomeView.swift in Sources */,
 				668B69912B897B9C0059C5E9 /* UniversityAdmissionApp.swift in Sources */,
+				667802322B8DDFD90026CEFE /* UniversityService.swift in Sources */,
+				668A020D2B906D5D00BC0B32 /* AuthServices.swift in Sources */,
+				668A02092B90651F00BC0B32 /* University.swift in Sources */,
+				66C54B9E2B975DF5006AD667 /* AllSearchView.swift in Sources */,
+				668A020B2B9069B100BC0B32 /* Province.swift in Sources */,
+				666200782BA1329900ABDACA /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +542,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -425,9 +620,9 @@
 				DEVELOPMENT_TEAM = TQKAT5B374;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniversityAdmission/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,9 +649,9 @@
 				DEVELOPMENT_TEAM = TQKAT5B374;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniversityAdmission/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -588,6 +783,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		668E49822B94E41800EA9C5F /* XCRemoteSwiftPackageReference "spline-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/splinetool/spline-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		668E49832B94E41800EA9C5F /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 668E49822B94E41800EA9C5F /* XCRemoteSwiftPackageReference "spline-ios" */;
+			productName = SplineRuntime;
+		};
+		668E49872B94EB6300EA9C5F /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SplineRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 668B69852B897B9C0059C5E9 /* Project object */;
 }

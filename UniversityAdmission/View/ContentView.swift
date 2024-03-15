@@ -8,22 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
-    init(){
-      
-    }
+    @EnvironmentObject var viewModel: AuthViewModel
     var body: some View {
-        TabView{
-            HomeView()
-                .tabItem {
-                    Label("Home", systemImage: "house.fill")
+        if viewModel.isValidated{
+            TabView{
+                HomeView()
+                    .tabItem {
+                        Label("Trang chủ", systemImage: "house.fill")
+                    }
+                UniversitySearchView()
+    //                .badge("!")
+                    .tabItem {
+                    Label("Tìm kiếm", systemImage: "magnifyingglass.circle")
                 }
-            SearchView()
-//                .badge("!")
-                .tabItem {
-                Label("Search", systemImage: "magnifyingglass.circle")
+                CaculatorView()
+                    .tabItem {
+                        Label("Tính điểm", systemImage: "plus.forwardslash.minus")
+                    }
+            }
+            .accentColor(.purple)
+        }else{
+            if viewModel.isAuthenticated {
+                AlreadyLoggedInView().environmentObject(viewModel)
+            }else{
+                WelcomeView()
             }
         }
-        .accentColor(.purple)
+     
     }
 }
 

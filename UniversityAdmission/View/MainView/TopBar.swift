@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TopBar: View {
+    var showLogo: Bool
     var body: some View {
         VStack{
             ZStack{
@@ -17,10 +18,11 @@ struct TopBar: View {
                     .fontDesign(.rounded)
                     .fontWeight(.bold)
                     .font(.system(size: 30))
+                    .opacity(showLogo ? 1 : 0)
                 HStack{
                     Spacer()
                     Circle()
-                        .frame(width: 40 , height: 40)
+                        .frame(width: 50 , height: 50)
                         .cornerRadius(75)
                         .foregroundColor(Color(red: 152/255, green: 163/255, blue: 16/255))
                         .overlay(
@@ -35,5 +37,5 @@ struct TopBar: View {
 }
 
 #Preview {
-    TopBar()
+    TopBar(showLogo: true)
 }
