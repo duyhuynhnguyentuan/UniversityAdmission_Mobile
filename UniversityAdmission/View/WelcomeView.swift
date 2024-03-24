@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WelcomeView: View {
+    @StateObject private var viewModel = AuthViewModel.shared
     @Environment(\.colorScheme) var colorScheme
     var body: some View {
             NavigationView{

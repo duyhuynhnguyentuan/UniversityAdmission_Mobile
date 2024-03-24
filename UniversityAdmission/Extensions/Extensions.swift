@@ -21,6 +21,7 @@ extension View {
     func getRect() -> CGRect {
         return UIScreen.main.bounds
     }
+    
     func placeholder<Content:View>(
                                    when shouldShow: Bool,
                                    alignment: Alignment = .leading,

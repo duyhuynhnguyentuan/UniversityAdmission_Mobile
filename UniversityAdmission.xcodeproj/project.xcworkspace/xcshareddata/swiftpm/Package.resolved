@@ -1,4 +1,5 @@
 {
+  "originHash" : "6d67a636af995352e8789120d2b761aa34a19e19845022633425caa68636aabe",
   "pins" : [
     {
       "identity" : "spline-ios",
@@ -8,7 +9,16 @@
         "branch" : "main",
         "revision" : "d476f94a056b49e35b1ec0d6bffc7ccd02fc4663"
       }
+    },
+    {
+      "identity" : "swiftkeychainwrapper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jrendel/SwiftKeychainWrapper",
+      "state" : {
+        "revision" : "185a3165346a03767101c4f62e9a545a0fe0530f",
+        "version" : "4.0.1"
+      }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

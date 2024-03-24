@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660D6C7D2BAD6A6A002F1D9D /* SelectMajorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6C7C2BAD6A6A002F1D9D /* SelectMajorView.swift */; };
+		660D6C7F2BAD7224002F1D9D /* SelectMajorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6C7E2BAD7224002F1D9D /* SelectMajorCardView.swift */; };
+		660D6C812BAD7690002F1D9D /* CaculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6C802BAD7690002F1D9D /* CaculatorViewModel.swift */; };
+		660D6C832BADA37B002F1D9D /* CalculatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6C822BADA37B002F1D9D /* CalculatorService.swift */; };
+		660D6C852BADA4BC002F1D9D /* CalculatorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6C842BADA4BC002F1D9D /* CalculatorResponse.swift */; };
+		660D6C872BADA9F1002F1D9D /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6C862BADA9F1002F1D9D /* ResultsView.swift */; };
+		660D6C892BADF88E002F1D9D /* InfoMajorFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6C882BADF88E002F1D9D /* InfoMajorFeedView.swift */; };
+		662394562BAEA856009C3D87 /* AdmissionPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662394552BAEA856009C3D87 /* AdmissionPlan.swift */; };
+		66418F0F2BA5776C008636C3 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66418F0E2BA5776C008636C3 /* Credentials.swift */; };
+		66418F122BA58CEF008636C3 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 66418F112BA58CEF008636C3 /* SwiftKeychainWrapper */; };
+		66418F142BA58F23008636C3 /* KeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66418F132BA58F23008636C3 /* KeychainStorage.swift */; };
+		66418F162BA5B0FF008636C3 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66418F152BA5B0FF008636C3 /* EditProfileView.swift */; };
 		665773F62B9EC1ED00DA50F9 /* AdmissionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665773F52B9EC1ED00DA50F9 /* AdmissionMethod.swift */; };
 		665B28032B958421007EE6B2 /* UniSearchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B28022B958421007EE6B2 /* UniSearchDetailView.swift */; };
 		666200782BA1329900ABDACA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666200772BA1329900ABDACA /* User.swift */; };
@@ -28,7 +40,6 @@
 		668B69912B897B9C0059C5E9 /* UniversityAdmissionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69902B897B9C0059C5E9 /* UniversityAdmissionApp.swift */; };
 		668B69932B897B9C0059C5E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69922B897B9C0059C5E9 /* ContentView.swift */; };
 		668B69952B897B9D0059C5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668B69942B897B9D0059C5E9 /* Assets.xcassets */; };
-		668B69982B897B9D0059C5E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668B69972B897B9D0059C5E9 /* Preview Assets.xcassets */; };
 		668B69A22B897B9D0059C5E9 /* UniversityAdmissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69A12B897B9D0059C5E9 /* UniversityAdmissionTests.swift */; };
 		668B69AC2B897B9D0059C5E9 /* UniversityAdmissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69AB2B897B9D0059C5E9 /* UniversityAdmissionUITests.swift */; };
 		668B69AE2B897B9D0059C5E9 /* UniversityAdmissionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B69AD2B897B9D0059C5E9 /* UniversityAdmissionUITestsLaunchTests.swift */; };
@@ -63,6 +74,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		660D6C7C2BAD6A6A002F1D9D /* SelectMajorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMajorView.swift; sourceTree = "<group>"; };
+		660D6C7E2BAD7224002F1D9D /* SelectMajorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMajorCardView.swift; sourceTree = "<group>"; };
+		660D6C802BAD7690002F1D9D /* CaculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatorViewModel.swift; sourceTree = "<group>"; };
+		660D6C822BADA37B002F1D9D /* CalculatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorService.swift; sourceTree = "<group>"; };
+		660D6C842BADA4BC002F1D9D /* CalculatorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorResponse.swift; sourceTree = "<group>"; };
+		660D6C862BADA9F1002F1D9D /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		660D6C882BADF88E002F1D9D /* InfoMajorFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMajorFeedView.swift; sourceTree = "<group>"; };
+		662394552BAEA856009C3D87 /* AdmissionPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmissionPlan.swift; sourceTree = "<group>"; };
+		66418F0E2BA5776C008636C3 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		66418F132BA58F23008636C3 /* KeychainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStorage.swift; sourceTree = "<group>"; };
+		66418F152BA5B0FF008636C3 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		665773F52B9EC1ED00DA50F9 /* AdmissionMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmissionMethod.swift; sourceTree = "<group>"; };
 		665B28022B958421007EE6B2 /* UniSearchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniSearchDetailView.swift; sourceTree = "<group>"; };
 		666200772BA1329900ABDACA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -86,7 +108,6 @@
 		668B69902B897B9C0059C5E9 /* UniversityAdmissionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityAdmissionApp.swift; sourceTree = "<group>"; };
 		668B69922B897B9C0059C5E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		668B69942B897B9D0059C5E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		668B69972B897B9D0059C5E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		668B699D2B897B9D0059C5E9 /* UniversityAdmissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversityAdmissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		668B69A12B897B9D0059C5E9 /* UniversityAdmissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityAdmissionTests.swift; sourceTree = "<group>"; };
 		668B69A72B897B9D0059C5E9 /* UniversityAdmissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversityAdmissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66418F122BA58CEF008636C3 /* SwiftKeychainWrapper in Frameworks */,
 				668E49842B94E41800EA9C5F /* SplineRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,10 +152,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		660D6C7B2BAD6A4D002F1D9D /* CaculatorGroup */ = {
+			isa = PBXGroup;
+			children = (
+				66C54B9B2B97189D006AD667 /* CaculatorView.swift */,
+				660D6C7C2BAD6A6A002F1D9D /* SelectMajorView.swift */,
+				660D6C7E2BAD7224002F1D9D /* SelectMajorCardView.swift */,
+				660D6C862BADA9F1002F1D9D /* ResultsView.swift */,
+			);
+			path = CaculatorGroup;
+			sourceTree = "<group>";
+		};
 		666200792BA1464700ABDACA /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
 				6662007A2BA1465800ABDACA /* AuthViewModel.swift */,
+				66418F132BA58F23008636C3 /* KeychainStorage.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -171,6 +205,7 @@
 			children = (
 				667C658A2B9824C900767698 /* MajorService.swift */,
 				667802312B8DDFD90026CEFE /* UniversityService.swift */,
+				660D6C822BADA37B002F1D9D /* CalculatorService.swift */,
 			);
 			path = RequestServices;
 			sourceTree = "<group>";
@@ -183,6 +218,9 @@
 				667C65862B98185800767698 /* Major.swift */,
 				665773F52B9EC1ED00DA50F9 /* AdmissionMethod.swift */,
 				666200772BA1329900ABDACA /* User.swift */,
+				66418F0E2BA5776C008636C3 /* Credentials.swift */,
+				660D6C842BADA4BC002F1D9D /* CalculatorResponse.swift */,
+				662394552BAEA856009C3D87 /* AdmissionPlan.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,18 +228,20 @@
 		668A020E2B9072AA00BC0B32 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				660D6C7B2BAD6A4D002F1D9D /* CaculatorGroup */,
 				666200862BA14DD700ABDACA /* Items */,
 				668B69BF2B8982E90059C5E9 /* UniversitySearchView.swift */,
 				668B69922B897B9C0059C5E9 /* ContentView.swift */,
 				668B69BA2B897F2D0059C5E9 /* MainView */,
 				668E49802B94433200EA9C5F /* UniversitySearchCardView.swift */,
 				665B28022B958421007EE6B2 /* UniSearchDetailView.swift */,
-				66C54B9B2B97189D006AD667 /* CaculatorView.swift */,
 				66C54B9D2B975DF5006AD667 /* AllSearchView.swift */,
 				6662007C2BA1467200ABDACA /* WelcomeView.swift */,
 				666200822BA1497100ABDACA /* RegisterView.swift */,
 				666200842BA1497A00ABDACA /* LogInView.swift */,
 				6694C7CB2BA35DBA00784FD7 /* AlreadyLoggedInView.swift */,
+				66418F152BA5B0FF008636C3 /* EditProfileView.swift */,
+				660D6C882BADF88E002F1D9D /* InfoMajorFeedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +252,7 @@
 				666200792BA1464700ABDACA /* Authentication */,
 				668A02102B90758200BC0B32 /* UniversitySearchViewModel.swift */,
 				667C65882B981FA900767698 /* MajorSearchViewModel.swift */,
+				660D6C802BAD7690002F1D9D /* CaculatorViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -255,7 +296,6 @@
 		668B69962B897B9D0059C5E9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				668B69972B897B9D0059C5E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -304,6 +344,7 @@
 			name = UniversityAdmission;
 			packageProductDependencies = (
 				668E49832B94E41800EA9C5F /* SplineRuntime */,
+				66418F112BA58CEF008636C3 /* SwiftKeychainWrapper */,
 			);
 			productName = UniversityAdmission;
 			productReference = 668B698D2B897B9C0059C5E9 /* UniversityAdmission.app */;
@@ -382,6 +423,7 @@
 			mainGroup = 668B69842B897B9C0059C5E9;
 			packageReferences = (
 				668E49822B94E41800EA9C5F /* XCRemoteSwiftPackageReference "spline-ios" */,
+				66418F102BA58CEF008636C3 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
 			);
 			productRefGroup = 668B698E2B897B9C0059C5E9 /* Products */;
 			projectDirPath = "";
@@ -399,7 +441,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				668B69982B897B9D0059C5E9 /* Preview Assets.xcassets in Resources */,
 				668B69952B897B9D0059C5E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,23 +468,34 @@
 			files = (
 				6662007B2BA1465800ABDACA /* AuthViewModel.swift in Sources */,
 				665773F62B9EC1ED00DA50F9 /* AdmissionMethod.swift in Sources */,
+				66418F162BA5B0FF008636C3 /* EditProfileView.swift in Sources */,
+				66418F142BA58F23008636C3 /* KeychainStorage.swift in Sources */,
+				660D6C7F2BAD7224002F1D9D /* SelectMajorCardView.swift in Sources */,
 				6662008A2BA14E2300ABDACA /* SecureAuthTextField.swift in Sources */,
 				666200882BA14DF100ABDACA /* CustomAuthTextField.swift in Sources */,
 				667C65892B981FA900767698 /* MajorSearchViewModel.swift in Sources */,
 				66C54B9C2B97189D006AD667 /* CaculatorView.swift in Sources */,
 				665B28032B958421007EE6B2 /* UniSearchDetailView.swift in Sources */,
+				660D6C7D2BAD6A6A002F1D9D /* SelectMajorView.swift in Sources */,
+				660D6C812BAD7690002F1D9D /* CaculatorViewModel.swift in Sources */,
 				668B69C02B8982E90059C5E9 /* UniversitySearchView.swift in Sources */,
+				660D6C832BADA37B002F1D9D /* CalculatorService.swift in Sources */,
 				666200852BA1497A00ABDACA /* LogInView.swift in Sources */,
 				668E49812B94433200EA9C5F /* UniversitySearchCardView.swift in Sources */,
 				6694C7CC2BA35DBA00784FD7 /* AlreadyLoggedInView.swift in Sources */,
+				660D6C852BADA4BC002F1D9D /* CalculatorResponse.swift in Sources */,
 				667C65872B98185900767698 /* Major.swift in Sources */,
+				66418F0F2BA5776C008636C3 /* Credentials.swift in Sources */,
 				668B69932B897B9C0059C5E9 /* ContentView.swift in Sources */,
 				666200832BA1497100ABDACA /* RegisterView.swift in Sources */,
 				666200812BA1493000ABDACA /* Extensions.swift in Sources */,
 				668B69BE2B897F970059C5E9 /* TopBar.swift in Sources */,
+				662394562BAEA856009C3D87 /* AdmissionPlan.swift in Sources */,
 				668B69C22B8986580059C5E9 /* HomeView.swift in Sources */,
 				6694C7C82BA3260300784FD7 /* CustomNumberField.swift in Sources */,
 				6694C7CA2BA326CB00784FD7 /* CustomEmailTextField.swift in Sources */,
+				660D6C892BADF88E002F1D9D /* InfoMajorFeedView.swift in Sources */,
+				660D6C872BADA9F1002F1D9D /* ResultsView.swift in Sources */,
 				667C658B2B9824C900767698 /* MajorService.swift in Sources */,
 				668A02112B90758200BC0B32 /* UniversitySearchViewModel.swift in Sources */,
 				6662007D2BA1467200ABDACA /* WelcomeView.swift in Sources */,
@@ -621,10 +673,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniversityAdmission/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UniSeeker.;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -650,10 +704,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniversityAdmission/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UniSeeker.;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -785,6 +841,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		66418F102BA58CEF008636C3 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
 		668E49822B94E41800EA9C5F /* XCRemoteSwiftPackageReference "spline-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/splinetool/spline-ios.git";
@@ -796,6 +860,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		66418F112BA58CEF008636C3 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66418F102BA58CEF008636C3 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
 		668E49832B94E41800EA9C5F /* SplineRuntime */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 668E49822B94E41800EA9C5F /* XCRemoteSwiftPackageReference "spline-ios" */;

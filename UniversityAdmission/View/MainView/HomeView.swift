@@ -14,27 +14,33 @@ struct HomeView: View {
     let dateComponents = DateComponents(calendar: Calendar.current, year: 2024, month: 6, day: 27)
     
     var body: some View {
-        VStack {
-            ZStack(alignment: .topLeading) {
-               Onboard3DView()
-                    .frame(height: 500)
-                    .ignoresSafeArea()
-                // Assuming TopBar is some custom view you have
-                TopBar(showLogo: false)
+
+        NavigationView { // Wrap only the content that needs navigation functionality
+            VStack {
+                ZStack(alignment: .topLeading) {
+                   Onboard3DView()
+                        .frame(height: 500)
+                        .ignoresSafeArea()
+                    // Assuming TopBar is some custom view you have
+                    TopBar(showLogo: false)
+                }
+                VStack(spacing: 12) {
+                    Text("Còn \(remainingDays) ngày nữa là thi đại học")
+                        .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .fontDesign(.default)
+                    Text("Hãy cùng UniSeeker cập nhật những thông tin đại học mới nhất nhé. ")
+                        .foregroundStyle(.secondary)
+                }
+                .padding(.horizontal)
+                Spacer()
+                
             }
-            VStack(spacing: 12) {
-                Text("Còn \(remainingDays) ngày nữa là thi đại học")
-                    .font(.system(size: 20))
-                    .fontWeight(.bold)
-                    .fontDesign(.default)
-                Text("Hãy cùng UniSeeker cập nhật những thông tin đại học mới nhất nhé. ")
-                    .foregroundStyle(.secondary)
+            .onAppear {
+                updateRemainingDays()
             }
-            .padding(.horizontal)
-            Spacer()
-        }
-        .onAppear {
-            updateRemainingDays()
+            .navigationTitle("") // Hide the navigation title
+            .navigationBarHidden(true) // Hide the navigation bar
         }
     }
 
@@ -54,6 +60,7 @@ struct HomeView: View {
         }
     }
 }
+
 #Preview {
     HomeView()
 }

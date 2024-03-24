@@ -25,7 +25,7 @@ struct University: Identifiable, Decodable, Hashable {
     //Reference property, could be optional
     var province: [Province]?
     var major: [Major]?
-    var admissionPlan: [String]?
+    var admissionPlan: [AdmissionPlan]?
     func hash(into hasher: inout Hasher) {
             hasher.combine(_id)
         }

@@ -20,4 +20,5 @@ struct Major: Identifiable, Decodable, Hashable{
     
     //optional reference object
     var AdmissionMethod: [AdmissionMethod]?
+
 }

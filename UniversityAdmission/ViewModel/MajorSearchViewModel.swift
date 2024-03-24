@@ -8,10 +8,13 @@
 import Foundation
 
 class MajorSearchViewModel: ObservableObject{
-    @Published var major = [Major]()
+    @Published var majors = [Major]()
+    @Published var isLoading = true
+    @Published var searchText: String = ""
     init(){
        getMajors()
     }
+    static let shared = MajorSearchViewModel()
     func getMajors(){
         MajorService.requestDomain = "https://universityadmission.onrender.com/api/v1/major"
         MajorService.getMajor{ result in
@@ -20,10 +23,11 @@ class MajorSearchViewModel: ObservableObject{
                 do {
                     let majors = try JSONDecoder().decode([Major].self, from: data)
                     DispatchQueue.main.async {
-                        self.major = majors
+                        self.majors = majors
+                        self.isLoading = false
                     }
                 } catch {
-                    print("Error decoding JSON: \(error)")
+                    print("Error decoding JSON ingetMajors(): \(error)")
                     // Handle decoding error
                 }
 
@@ -33,4 +37,13 @@ class MajorSearchViewModel: ObservableObject{
             }
         }
     }
+    var filteredMajors: [Major] {
+           var majors = self.majors
+
+           if searchText.count > 0 {
+               majors = majors.filter { $0.name.localizedCaseInsensitiveContains(searchText) }
+           }
+
+           return majors
+       }
 }

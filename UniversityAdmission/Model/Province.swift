@@ -17,5 +17,5 @@ struct Province: Identifiable, Decodable {
     }//computed property
     
     //optional property
-    var university: [University]?
+    var university: [String]?
 }

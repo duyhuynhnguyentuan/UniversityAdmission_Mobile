@@ -12,9 +12,14 @@ struct ContentView: View {
     var body: some View {
         if viewModel.isValidated{
             TabView{
-                HomeView()
+                    HomeView()
+                        .tabItem {
+                            Label("Trang chủ", systemImage: "house.fill")
+                        }
+
+                InfoMajorFeedView()
                     .tabItem {
-                        Label("Trang chủ", systemImage: "house.fill")
+                        Label("Ngành", systemImage: "info")
                     }
                 UniversitySearchView()
     //                .badge("!")
@@ -31,7 +36,7 @@ struct ContentView: View {
             if viewModel.isAuthenticated {
                 AlreadyLoggedInView().environmentObject(viewModel)
             }else{
-                WelcomeView()
+                WelcomeView().environmentObject(viewModel)
             }
         }
      

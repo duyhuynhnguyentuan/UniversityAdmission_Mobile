@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import LocalAuthentication
 
 enum NetworkError:Error{
     case invalidURL
@@ -14,9 +15,41 @@ enum NetworkError:Error{
     case decodingError
     case custom(errorMessage: String)
 }
-enum AuthenticationError : Error {
+//specify whether your devices support any biometrics
+enum BiometricType {
+    case none
+    case face
+    case touch
+    case optic
+}
+//handling types of errors
+enum AuthenticationError : Error, LocalizedError, Identifiable {
     case invalidCredentials
+    case deniedAccess
     case custom(errorMessage: String)
+    case noFaceIDEnrolled
+    case noFingerprintEnrolled
+    case biometricError
+    var id: String{
+        self.localizedDescription
+    }
+    
+    var errorDescription: String?{
+        switch self{
+        case .invalidCredentials:
+            return NSLocalizedString("Either your email or password not correct", comment: "Try again")
+        case .deniedAccess:
+            return NSLocalizedString("Bạn đã từ chối truy cập sinh trắc học, hãy vào Cài đặt -> UniSeeker. -> Cho phép sử dụng FaceID", comment: "")
+        case .custom(errorMessage: let errorMessage):
+            return NSLocalizedString("\(errorMessage)", comment: "")
+        case .noFaceIDEnrolled:
+            return NSLocalizedString("Bạn chưa cài đặt FaceID nào", comment: "")
+        case .noFingerprintEnrolled:
+            return NSLocalizedString("Bạn chưa cài đặt vân tây nào", comment: "")
+        case .biometricError:
+            return NSLocalizedString("Không nhận dạng được khuôn mặt hoặc vân tay", comment: "Hãy thử lại")
+        }
+    }
 }
 public class AuthServices{
     public static var requestDomain = ""
@@ -152,83 +185,6 @@ public class AuthServices{
         task.resume()
     }
     
-    
-    //Fetch user function
-    //    static func fetchUser(id: String, completion: @escaping (_ result: Result<Data, AuthenticationError>) -> Void) {
-    //        let urlString = URL(string: "http://localhost:3000/users/\(id)")!
-    //        var urlRequest = URLRequest(url: urlString)
-    //        let session = URLSession.shared
-    //        urlRequest.httpMethod = "GET"
-    //        urlRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
-    //        urlRequest.addValue("application/json", forHTTPHeaderField: "Accept")
-    //
-    //        let task = session.dataTask(with: urlRequest) { data, response, error in
-    //            if let error = error {
-    //                // Handle the case where an error occurred during the network request
-    //                completion(.failure(.custom(errorMessage: error.localizedDescription )))
-    //                return
-    //            }
-    //
-    //            guard let data = data else {
-    //                // Handle the case where data is nil
-    //                completion(.failure(.invalidCredentials))
-    //                return
-    //            }
-    //
-    //            // Handle the successful case where data is retrieved
-    //            completion(.success(data))
-    //
-    //            do {
-    //                if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
-    //                    // Process JSON data if needed
-    //                    // Note: Currently, this block is empty in the provided code
-    //                }
-    //            } catch let error {
-    //                // Handle any error during JSON serialization
-    //                completion(.failure(.custom(errorMessage: error.localizedDescription )))
-    //                print(error)
-    //            }
-    //        }
-    //        task.resume()
-    //    }
-    //      static func getUniversity(completion: @escaping (Result<Data, NetworkError>) -> Void) {
-    //          let urlString = requestDomain // Assuming you're using HTTP, adjust as needed
-    //          guard let url = URL(string: urlString) else {
-    //              completion(.failure(.invalidURL))
-    //              return
-    //          }
-    //
-    //          let session = URLSession.shared
-    //          var request = URLRequest(url: url)
-    //          request.httpMethod = "GET"
-    //          request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-    //          request.addValue("application/json", forHTTPHeaderField: "Accept")
-    //
-    //          let task = session.dataTask(with: request) { data, response, error in
-    //              if let error = error {
-    //                  completion(.failure(.noData))
-    //                  return
-    //              }
-    //
-    //              guard let httpResponse = response as? HTTPURLResponse else {
-    //                  completion(.failure(.invalidURL))
-    //                  return
-    //              }
-    //
-    //              guard (200..<300).contains(httpResponse.statusCode) else {
-    //                  completion(.failure(.decodingError))
-    //                  return
-    //              }
-    //
-    //              guard let data = data else {
-    //                  completion(.failure(.noData))
-    //                  return
-    //              }
-    //
-    //              completion(.success(data))
-    //          }
-    //
-    //          task.resume()
-    //      }
+
     
 }
